@@ -1,7 +1,8 @@
 /* CSS Reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,adnav,adheader,body#layout{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 span{margin:0!important}
-body{font-size: 15px;color:#555555;margin:0;padding:0;background:#f9f9f9;font-family:Arial,sans-serif;line-height: 1.6em}
+/* css */
+body {font-size: 15px;color:#555555;margin:0;padding:0;background:#f9f9f9;font-family:Arial,sans-serif;line-height: 1.6em}
 a:link,a:visited{color:#555555;text-decoration:none;cursor:pointer}
 a:hover{color:#3498db;text-decoration:none;cursor:pointer}
 a img{border-width:0}
@@ -22,15 +23,15 @@ h4{font-size:120%}
 h5{font-size:100%}
 h6{font-size:80%}
 /* Main Wrapper */
-#outer-wrapper-indzign{position:relative;width: 100%;max-width: 728px;margin: 0 auto;background: #fff;padding: 0;overflow: hidden;box-shadow: 0 0 0 20px rgba(0,0,0,0.02);}
-#wrapper-indzign{position:relative;width: auto;max-width: 100%;margin: 0 auto;background: #fff;padding: 10px;overflow: hidden;}
-#main-wrapper-indzign{position:relative;float:left;padding:0;word-wrap:break-word;overflow:hidden;width:100%;}
-#content-wrapper-indzign, #main{position: relative;max-width: 100%}
+#outer-wrapper {position:relative;width:728px;max-width: 728px;margin: 0 auto;background: #fff;padding: 0;overflow: hidden;box-shadow: 0 0 0 20px rgba(0,0,0,0.02);}
+#wrapper {position:relative;width: auto;max-width: 100%;margin: 0 auto;background: #fff;padding: 10px;overflow: hidden;}
+#main-wrapper {position:relative;float:left;padding:0;word-wrap:break-word;overflow:hidden;width:100%;}
+#content-wrapper, #main{position: relative;max-width: 100%}
 /* Header  */
-.header-indzign {text-align:center;margin:auto}
-.header-indzign .title {text-transform:uppercase;margin:0 auto 10px;font-size:18px;}
-.header-indzign .title a {color:#3498db;letter-spacing:0.15em}
-.header-indzign .title a:hover{color:#999999}
+.header {text-align:center;margin:auto}
+.header .title {text-transform:uppercase;margin:0 auto 10px;font-size:18px;}
+.header .title a {color:#3498db;letter-spacing:0.15em}
+.header .title a:hover{color:#999999}
 /* Search  */
 #search-box{background:#ecf0f1;margin:auto;padding:15px;display:block;position:relative;border-top:2px solid #bdc3c7;}
 #search-box form{margin:auto;display:table;width:90%}
